@@ -29,6 +29,7 @@
         </thead>
         <tbody>
             <?php while ($linha = $select->fetch()) { ?>
+                
                 <tr>
                     <td><?php echo ($linha['nome']); ?></td>
                     <td><?php echo ($linha['celular']); ?></td>
